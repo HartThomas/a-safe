@@ -23,9 +23,14 @@ Now you need to open a new terminal:
   cd ../frontend
   npm install
 ```
+We need to populate the database now:
+```
+  cd ../backend/scripts
+  node importJokes.js
+```
 Lets start the backend:
 ```
-  cd ../backend
+  cd ..
   node server.js
 ```
 A new terminal is neede again:
